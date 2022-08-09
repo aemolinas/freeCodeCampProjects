@@ -1,0 +1,46 @@
+body {
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    font-family: 'Proxima Nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+    max-width: 100%;
+    background: linear-gradient(90deg, blue, red, green);
+}
+/*.container {
+    Width:90%;
+}*/
+#feedback div {
+    margin: 0 !important;
+    max-width: 100%;
+    width: 100%;
+    padding:0;
+    border: 0;
+}
+div {
+    margin: 10%;
+    width: 80%;
+    max-width: 100%; 
+    border-radius: 2%;
+    border: 1px black solid;
+}
+fieldset {
+    max-width: 100%;
+ 
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+label, textarea {
+    display: block;
+    margin: 0.5rem;
+    width: 100%;
+}
+
+textarea {
+    columns: 20;
+}
+body {
+    margin: auto;
+}
+
