@@ -31,16 +31,22 @@ h1 {
     font-size: 300%;
 }
 
-label, textarea {
+label {
     display: block;
     margin: 0.5rem;
     width: 100%;
 }
 
 textarea {
-    columns: 20;
+    width:100%;
+    overflow: hidden;
+    display: block;
 }
 body {
     margin: auto;
 }
 
+.container{
+    background: whitesmoke;
+    opacity: 65%;
+}
