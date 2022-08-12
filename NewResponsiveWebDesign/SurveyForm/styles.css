@@ -8,17 +8,19 @@ body {
     Width:90%;
 }*/
 #feedback div {
-    margin: 0 !important;
+    margin: 15px 0 ; /*!important;*/
     max-width: 100%;
-    width: 100%;
-    padding:0;
+    width: 500px;
+    padding:5px;
     border: 0;
+    background-color: gray;
+    box-sizing: border-box;
 }
 div {
     margin: 10%;
     width: 80%;
     max-width: 100%; 
-    border-radius: 2%;
+    border-radius: 1%;
     border: 1px black solid;
 }
 fieldset {
@@ -39,8 +41,10 @@ label {
 
 textarea {
     width:100%;
+    max-width: 100%;
     overflow: hidden;
     display: block;
+    box-sizing: border-box;
 }
 body {
     margin: auto;
@@ -49,4 +53,9 @@ body {
 .container{
     background: whitesmoke;
     opacity: 65%;
+    padding: 0 10px;
+}
+
+#submit {
+    margin: 10px auto;
 }
