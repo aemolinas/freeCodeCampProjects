@@ -9,7 +9,7 @@ body {
 }*/
 #feedback div {
     margin: 15px 0 ; /*!important;*/
-    max-width: 100%;
+    max-width: inherit;
     width: 500px;
     padding:5px;
     border: 0;
@@ -41,10 +41,11 @@ label {
 
 textarea {
     width:100%;
-    max-width: 100%;
+    max-width: 98%;
     overflow: hidden;
     display: block;
     box-sizing: border-box;
+    height: auto;
 }
 body {
     margin: auto;
@@ -58,4 +59,17 @@ body {
 
 #submit {
     margin: 10px auto;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        max-width:95%;
+    }
+    .feedback div{
+        max-width: 50% !important;
+    }
+    textarea{
+        max-width: 50%;
+    }
 }
