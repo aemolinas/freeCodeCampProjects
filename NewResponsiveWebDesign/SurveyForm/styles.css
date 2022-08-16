@@ -7,7 +7,16 @@ body {
 /*.container {
     Width:90%;
 }*/
-#feedback div {
+
+/*#feedback {
+    max-width: 100%;
+    width:100%;
+}*/
+fieldset {
+    max-width: 100%;
+    width:auto;
+}
+.feedbackdiv {
     margin: 15px 0 ; /*!important;*/
     max-width: inherit;
     width: 500px;
@@ -16,17 +25,14 @@ body {
     background-color: gray;
     box-sizing: border-box;
 }
-div {
+.container {
     margin: 10%;
     width: 80%;
     max-width: 100%; 
     border-radius: 1%;
     border: 1px black solid;
 }
-fieldset {
-    max-width: 100%;
- 
-}
+
 
 h1 {
     text-align: center;
@@ -41,11 +47,13 @@ label {
 
 textarea {
     width:100%;
-    max-width: 98%;
+    max-width: 100%;
     overflow: hidden;
     display: block;
     box-sizing: border-box;
     height: auto;
+    resize: vertical;
+    overflow: hidden;
 }
 body {
     margin: auto;
@@ -62,14 +70,19 @@ body {
     
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
+    fieldset{
+        max-width: 50%;
+
+    }
     .container{
         max-width:95%;
     }
-    .feedback div{
-        max-width: 50% !important;
+    .feedbackdiv{
+        max-width: 50% ;
     }
     textarea{
         max-width: 50%;
     }
 }
+*/
