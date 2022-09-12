@@ -1,3 +1,4 @@
+<!--Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks-->
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -7,16 +8,37 @@
     <meta name="description" content="Tribute to Leslie Feist" /><!--Rv1.0 Fill in who-->
     <meta name="keywords" content="Feist, Leslie, Leslie Feist, Broken Social Scene, Monarch, Let It Die, The Reminder, Metals, Pleasure" /><!--Rv1.0--Fill in keywords-->
     <meta name="author" content="Amar E. Molinas" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!--Your tribute page should have a main element with a corresponding id of main, which contains all other elements-->
     <main id="main">
-      <tile id="title">Leslie Feist</title>
+      <!--You should see an element with an id of title, which contains a string (i.e. text),
+         that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")-->
+      <h1 id="title">Leslie Feist</h1>
+      <!--You should see either a figure or a div element with an id of img-div-->
       <figure id="img-div">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Leslie_Feist_at_the_filmore_in_SF.png" id="image"/>
-        <caption id="img-caption">Feist performing in 2006</caption>
+        <!--Within the #img-div element, you should see an img element with a corresponding id="image"-->
+        <img id="image"src="https://upload.wikimedia.org/wikipedia/commons/1/12/Leslie_Feist_at_the_filmore_in_SF.png" /><br />
+        <!--Within the #img-div element, you should see an element with a corresponding id="img-caption" 
+          that contains textual content describing the image shown in #img-div-->
+        <figcaption id="img-caption">Feist performing in 2006</figcaption>
       </figure>
-
-    </main>
+      <!--**You should see an element with a corresponding id="tribute-info", 
+        which contains textual content describing the subject of the tribute page-->
+      <section id="tribute-info">
+        <ul>
+          <li>1800 foo is a big dog and I don't really like big dogs all the time</li>
+          <li>1900 bar, the place I like to drink when drinking is a fun time</li>
+          <li>2000 baz tards don't respect the day I'm about to have is meh meh</li>
+        </ul>
+      </section>
+        <!--**You should see an a element with a corresponding id="tribute-link", 
+          which links to an outside site, that contains additional information about the subject of the tribute page.
+          HINT: You must give your element an attribute of target and set it to _blank in order for your link to open
+          in a new tab-->
+        <p>Read more about <a href="https://en.wikipedia.org/wiki/Feist_(singer)" target="_blank">Feist on Wikipedia.</a></p>
+      </main>
   </body>
 </html>
