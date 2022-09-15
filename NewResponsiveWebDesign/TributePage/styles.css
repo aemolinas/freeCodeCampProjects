@@ -8,7 +8,6 @@ main {
     border: black 1px solid;
     align-content: center;
     text-align: center;
-    
 }
 
 h1 {
@@ -18,7 +17,7 @@ figure {
     margin: auto;
     border: red 1px solid;
     justify-content: center;
-
+    display: flex;
 }
 
 #image { /*Your img element should be centered within its parent element*/
@@ -29,6 +28,8 @@ figure {
     padding: 10px;
     max-width: 100%;
     max-height: 100%;
+    height: auto;
+    text-align: center;
 }
 
 #img-caption {
