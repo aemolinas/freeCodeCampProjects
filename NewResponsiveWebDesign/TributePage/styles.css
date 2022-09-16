@@ -18,6 +18,7 @@ figure {
     border: red 1px solid;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 
 #image { /*Your img element should be centered within its parent element*/
